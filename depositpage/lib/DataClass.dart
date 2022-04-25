@@ -112,6 +112,7 @@ class DepositHistory {
   String? status;
   String? datetime;
 
+
   DepositHistory(
       {this.currencyImage,
         this.amount,
