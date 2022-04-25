@@ -127,8 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children:[
                   Text("Deposit",style: TextStyle(fontSize: 25,color: Colors.black,fontWeight: FontWeight.bold),),
-                  loading ?
-                  dropdownitem():Text("data"),
+                  loading ? dropdownitem():Text("data"),
                 ],
               ),
 

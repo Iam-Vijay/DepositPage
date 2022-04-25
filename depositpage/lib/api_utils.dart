@@ -6,9 +6,6 @@ import 'package:depositpage/DataClass.dart';
 class api_utils {
   static const baseURL = 'https://ixtokens.com/';
 
-// static const baseURL = 'https://spiegeltechnologies.org/iosmdex/';
-
-//TODO verify EMailregister
  static const String verifyRegisterURL = baseURL + 'deposit_web';
 
   Future<DataClass> getSpinner(String user_id) async {
